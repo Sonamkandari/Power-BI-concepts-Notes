@@ -46,3 +46,9 @@ it includes:
 
 ---
 
+- Loaded the customer CSV file and order CSV file in Power BI, and we can also see the model view of both the datasets.
+
+ <img width="802" height="411" alt="image" src="https://github.com/user-attachments/assets/5f38aba8-acfd-4353-925f-49f4f59508ba" />
+--- 
+
+
