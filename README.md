@@ -149,6 +149,7 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 4. Apply changes  
 
 ---
+# How to review our data and How to do Data Transformation
 ## Using Dax query
 - For example, there are a lot of null values or blank spaces in a particular column, so we will use a regex query to put null values in those empty cells. 
 
