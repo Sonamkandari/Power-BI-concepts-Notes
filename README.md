@@ -159,9 +159,9 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 
 - Another Option is Power Query
 - Power Query : it is used to clean, shape, and prepare your data before loading it into the model. 
-
+---
 <img width="893" height="423" alt="image" src="https://github.com/user-attachments/assets/64b9e5c6-cc09-45cb-ad73-6ffe887d6fc8" />
-
+---
 - DAX: creates a new column
 - stores the result of the calculation
 
