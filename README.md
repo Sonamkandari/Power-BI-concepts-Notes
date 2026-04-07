@@ -149,30 +149,116 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 4. Apply changes  
 
 ---
-# How to review our data and How to do Data Transformation
-## Using Dax query
-- For example, there are a lot of null values or blank spaces in a particular column, so we will use a regex query to put null values in those empty cells. 
 
-<img width="70" height="208" alt="image" src="https://github.com/user-attachments/assets/b2dd0366-8e99-4c5f-8fd1-6f50fbee775e" />
+# How to Review Data and Perform Data Transformation
+
+## Using DAX Query
+
+- In some cases, a column may contain null values or blank spaces.
+- These can be handled using DAX expressions to replace or manage missing values.
 
 ---
-<img width="672" height="389" alt="image" src="https://github.com/user-attachments/assets/b9087ff0-c07c-4368-b147-a53e6801aa20" />
----
-<img width="802" height="120" alt="image" src="https://github.com/user-attachments/assets/8b681cc7-2a74-49f7-a04d-b79fd2b65d69" />
----
-- DAX is the formula language in Power BI used to create calculations and custom logic in your model. 
 
-- Another Option is Power Query
-- Power Query : it is used to clean, shape, and prepare your data before loading it into the model. 
+<img width="70" height="208" alt="DAX Query View" src="https://github.com/user-attachments/assets/b2dd0366-8e99-4c5f-8fd1-6f50fbee775e" />
+
 ---
 
-<img width="893" height="423" alt="image" src="https://github.com/user-attachments/assets/64b9e5c6-cc09-45cb-ad73-6ffe887d6fc8" />
+<img width="672" height="389" alt="DAX Example" src="https://github.com/user-attachments/assets/b9087ff0-c07c-4368-b147-a53e6801aa20" />
+
 ---
 
-- DAX: creates a new column
-- stores the result of the calculation
+<img width="802" height="120" alt="DAX Formula Bar" src="https://github.com/user-attachments/assets/8b681cc7-2a74-49f7-a04d-b79fd2b65d69" />
 
+---
 
+- DAX (Data Analysis Expressions) is the formula language in Power BI used to create calculations and apply custom logic to your data model.
+
+---
+
+## Power Query (Data Transformation Tool)
+
+- Power Query is used to clean, transform, and prepare data before loading it into the data model.
+- It is the preferred tool for handling missing values, changing data types, and shaping data.
+
+---
+
+<img width="893" height="423" alt="Power Query Editor" src="https://github.com/user-attachments/assets/64b9e5c6-cc09-45cb-ad73-6ffe887d6fc8" />
+
+---
+
+## DAX vs Power Query
+
+- **DAX**
+  - Used after data is loaded into the model  
+  - Creates new columns or measures  
+  - Stores the result of calculations  
+
+- **Power Query**
+  - Used before data is loaded  
+  - Performs data cleaning and transformation  
+  - Does not store unnecessary intermediate results  
+
+---
+
+## Report View (Data Visualization)
+
+### Canvas Overview
+
+- The report canvas is where visualizations are created.
+- Right-side panel includes:
+  - Filters  
+  - Visualizations  
+  - Data (Fields)  
+
+---
+
+<img width="400" height="384" alt="Report Canvas" src="https://github.com/user-attachments/assets/0f34fe8d-6827-42c0-9fdf-37eb43d63e51" />
+
+---
+
+## Building Visuals
+
+- Most visuals require:
+  - **Dimensions** (categorical data)  
+  - **Measures** (numerical values)  
+
+---
+
+## First Bar Chart
+
+---
+
+<img width="505" height="393" alt="Bar Chart Example 1" src="https://github.com/user-attachments/assets/0af77f00-8870-4cbe-957e-bf627627884d" />
+
+---
+
+<img width="888" height="650" alt="Bar Chart Example 2" src="https://github.com/user-attachments/assets/ec8e183d-3068-4d97-84b9-4927174c6421" />
+
+---
+
+## Slicer
+
+- A slicer is an interactive filter used in reports.
+- It allows users to dynamically filter data in visuals.
+
+---
+
+<img width="1155" height="715" alt="Slicer Example" src="https://github.com/user-attachments/assets/e0d23227-7b7b-4f40-873b-dc3d2b8d6f9a" />
+
+---
+
+<img width="1132" height="640" alt="Slicer Example 2" src="https://github.com/user-attachments/assets/a3a25b7b-68bf-459b-b636-c23f5e77496c" />
+
+---
+
+## Publishing the Dashboard on Power BI Service
+
+- After creating reports, you can publish them to Power BI Service.
+- This allows sharing dashboards with others and accessing them online.
+
+---
+
+<img width="870" height="506" alt="Publish Dashboard" src="https://github.com/user-attachments/assets/eb0f7990-2aaa-4491-9025-1d68441fb796" />
 
 
 
