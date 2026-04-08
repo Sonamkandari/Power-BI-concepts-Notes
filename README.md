@@ -261,5 +261,28 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 <img width="870" height="506" alt="Publish Dashboard" src="https://github.com/user-attachments/assets/eb0f7990-2aaa-4491-9025-1d68441fb796" />
 
 
+---
+## chapter - 3 :
+### Different ways to import Data into power BI
+
+<img width="922" height="386" alt="image" src="https://github.com/user-attachments/assets/a687c87d-2ef5-4f92-b6fd-59d5c59d08b1" />
+
+--- 
+## How to connect new source to power BI
+-> two most important connection type:
+-> Import 
+-> Direct Query
+
+## Connection type import:
+- what is an Import ?
+- Data is copied from the source and stored locally inside the power BI file, then used for visuals
+---
+<img width="931" height="434" alt="image" src="https://github.com/user-attachments/assets/c324c1d8-f9c8-4569-9d88-2d61d67ca4f2" />
+
+---
+1. Import excel file Data : In case of excel file we can only load data simply we can not load data live,  it is not possible for excel in power BI
+2. 
+
+
 
 
