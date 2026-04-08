@@ -281,8 +281,22 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 
 ---
 1. Import excel file Data : In case of excel file we can only load data simply we can not load data live,  it is not possible for excel in power BI
-2. 
+2. one disadvantage of import is that we have to do refresh manually  / you can schedule automatic refresh
+---
+<img width="658" height="433" alt="image" src="https://github.com/user-attachments/assets/87921bca-e1a9-403a-a8bb-1465a1eca18b" />
 
+---
+## Direct Query : Data stays in the source system and power BI sends quaries to it whever visuals need data
 
+<img width="919" height="463" alt="image" src="https://github.com/user-attachments/assets/6e3c8b23-a40b-4d0c-8a80-ca515021b835" />
 
+<img width="935" height="416" alt="image" src="https://github.com/user-attachments/assets/38892743-d6a3-46f6-88be-4ca9237f24cc" />
+
+---
+- Trying Direct Query
+- WE can use Microsoft SQL server to impliment Direct Query:
+- Changing mode.
+- Import mode is a one-way decision; you can not switch later to direct query.
+- Direct Query allows switching to import later. 
+- 
 
