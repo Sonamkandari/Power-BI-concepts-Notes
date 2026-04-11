@@ -298,5 +298,17 @@ In the Orders table, the `Order_Date` column may not be in the correct format.
 - Changing mode.
 - Import mode is a one-way decision; you can not switch later to direct query.
 - Direct Query allows switching to import later. 
-- 
+---
+## Live Connection
+- Power BI Deskyop connects directly to a shared semantic model in the Power BI Service
+<img width="850" height="432" alt="image" src="https://github.com/user-attachments/assets/c52bca00-bf28-495b-8437-c2c3c81519b2" />
+
+- How to connect multiple files in one go
+- just go to the get Data and select source as folder and then give the path of the folder which is storing multiple files
+- Folder data Preview : It lists the files and Binary represents the data inside each file
+---
+**Lineage View **: Full picture of how data flows and how components are connected
+
+
+
 
